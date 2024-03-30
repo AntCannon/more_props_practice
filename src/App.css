@@ -26,11 +26,16 @@ ul {
 .student-card {
   width: 300px;
   background: rgb(183, 188, 193);
-  border: 1px solid black;
-  border-radius: 5px;
+  /* border: 1px solid rgb(30, 30, 30); */
+  border-radius: 7px;
   padding: 10px;
   margin-bottom: 20px;
   list-style: none;
+}
+
+.student-card:hover {
+  box-shadow: 3px 3px 5px rgb(142, 141, 141);
+  transform: translate(-3px, -3px)
 }
 
 .student-average {
